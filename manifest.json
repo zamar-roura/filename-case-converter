@@ -1,0 +1,11 @@
+{
+	"id": "filename-case-converter",
+	"name": "File Case Converter",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Convert file and folder name cases (lowercase, uppercase, capitalize) (single item or recursively)",
+	"author": "Zamar Roura",
+	"authorUrl": "zamarfazal@gmail.com",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
