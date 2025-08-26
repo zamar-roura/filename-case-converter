@@ -1,0 +1,80 @@
+/* File Case Converter Plugin Styles */
+
+.file-case-converter-warning {
+	background-color: var(--background-modifier-error);
+	border: 1px solid var(--background-modifier-error-border);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px 0;
+	color: var(--text-error);
+}
+
+.file-case-converter-warning-text {
+	color: var(--text-error);
+	font-weight: bold;
+}
+
+.file-case-converter-buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.file-case-converter-buttons button {
+	padding: 8px 16px;
+	border-radius: 5px;
+	border: 1px solid var(--interactive-accent);
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.file-case-converter-buttons button:hover {
+	background-color: var(--interactive-accent-hover);
+}
+
+.file-case-converter-buttons button:not(.mod-cta):not(.mod-warning) {
+	background-color: transparent;
+	color: var(--text-muted);
+	border-color: var(--background-modifier-border);
+}
+
+.file-case-converter-buttons button:not(.mod-cta):not(.mod-warning):hover {
+	background-color: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+.file-case-converter-buttons .mod-warning {
+	background-color: var(--color-red);
+	border-color: var(--color-red);
+	color: white;
+}
+
+.file-case-converter-buttons .mod-warning:hover {
+	background-color: var(--color-red-hover);
+}
+
+/* Modal styling improvements */
+.modal .file-case-converter-warning {
+	font-size: 14px;
+}
+
+.modal h2 {
+	margin-bottom: 15px;
+}
+
+.modal h3 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.setting-item-description {
+	color: var(--text-muted);
+	font-size: 13px;
+	margin-bottom: 15px;
+}
