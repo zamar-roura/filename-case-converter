@@ -42,6 +42,8 @@ A powerful Obsidian plugin that converts file and folder names between different
 
 ## 📋 Examples
 
+![File Case Converter Demo](example.gif)
+
 ### Individual File Conversion
 ```
 Right-click on "MyDocument.MD"
