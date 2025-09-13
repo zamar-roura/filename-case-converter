@@ -25,13 +25,6 @@ A powerful Obsidian plugin that converts file and folder names between different
 - Conflict detection (won't overwrite existing files)
 - Detailed error reporting and console logging
 
-## 🚀 Quick Start
-
-### Installation (Manual)
-1. Download the plugin files
-2. Place in your vault's `.obsidian/plugins/file-case-converter/` folder
-3. Enable the plugin in Obsidian Settings → Community Plugins
-
 ### Basic Usage
 
 #### Right-Click Context Menu
@@ -83,6 +76,12 @@ Access via **Settings → File Case Converter**
 - If multiple options enabled: dropdown selection
 - If single option enabled: automatic selection
 
+
+## Installation (Manual)
+```bash
+foo@bar:~/filename-case-converter$ npm run build
+foo@bar:~/filename-case-converter$ ./scripts/install-built path/to/your/vault
+```
 ## 🔧 Development
 
 ### Local Development Setup
